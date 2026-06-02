@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>General Instructions - Two-Period 2110</title>
+
+<style>
+body {
+    background-color: #fff;
+    font-family: Arial, "Times New Roman", serif;
+    color: #222;
+    margin: 0;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    line-height: 2;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 25px;
+}
+
+.red {
+    color: #b94b3a;
+    font-weight: bold;
+}
+
+.emphasis {
+    color: #b94b3a;
+    font-weight: bold;
+}
+
+.insurance-table {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.insurance-table p {
+    margin-bottom: 10px;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<h1>General Instructions</h1>
+
+<p>Imagine that you own a house for two periods and plan to sell it at the end of period 2. The house is worth <span class="red">100,000 talers</span> at the beginning of period 1. A “taler” is a hypothetical currency unit, similar to U.S. dollars or British pounds.</p>
+
+<p>At the beginning of period 1, your total assets consist of the value of the house plus <span class="red">5,000 talers</span> in cash.</p>
+
+<p>A strong hurricane may occur in either period of the two-period game. Note that the hurricane may occur in period 1 or period 2, in both periods, or in neither period.</p>
+
+<p>If a hurricane occurs in a given period, your house will suffer a loss of <span class="red">50,000 talers</span>. If you purchase insurance, you will be protected against this loss.</p>
+
+<p>If you purchase insurance and a hurricane occurs, the insurance company will compensate you so that the house returns to its pre-hurricane value.</p>
+
+<p>If you do not purchase insurance and a hurricane occurs, the value of your house will decrease by <span class="red">50,000 talers</span>.</p>
+
+<p class="emphasis">Your total assets at the end of period 2 equal: “The value of your house at the end of period 2” + “<span class="red">5,000 talers</span> in cash” – “All insurance premiums paid in both periods combined”.</p>
+
+<p>The probability of a hurricane in period 1 is 1/25 (4%). If no hurricane occurs in period 1, the probability in period 2 remains 1/25. If a hurricane occurs in period 1, the probability in period 2 increases to 1/20 (5%).</p>
+
+<p>You may choose to purchase a one-period insurance contract or a two-period insurance contract.</p>
+
+<div class="insurance-table">
+
+<p><strong>One-Period Insurance Contract</strong></p>
+<p>Period 1: <span class="red">2,000 talers</span></p>
+<p>Period 2 (no hurricane in period 1): <span class="red">2,000 talers</span></p>
+<p>Period 2 (hurricane in period 1): <span class="red">2,500 talers</span></p>
+
+<p>OR</p>
+
+<p><strong>Two-Period Insurance Contract</strong></p>
+<p>Period 1: <span class="red">2,110 talers</span></p>
+<p>Period 2: <span class="red">2,110 talers</span></p>
+
+</div>
+
+<h2>Game Rules</h2>
+
+<p>After your period 1 decision, the computer will display whether a hurricane occurred.</p>
+
+<p>If you purchased the two-period insurance contract, you are automatically covered in period 2.</p>
+
+<p>If you did not purchase the two-period contract or only purchased one-period insurance in period 1, you must decide again in period 2.</p>
+
+<p>You will complete <span class="red">30</span> two-period games.</p>
+
+</div>
+</body>
+</html>
